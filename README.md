@@ -1,13 +1,13 @@
-# Experiment-3-Implementation-of-MLP-for-non-linear-separable-problem
+## Experiment-3-Implementation-of-MLP-for-non-linear-separable-problem
 **AIM:**
 
 To implement a perceptron for classification using Python
 
-**EQUIPMENTS REQUIRED:**
+## EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-**RELATED THEORETICAL CONCEPT:**
+## RELATED THEORETICAL CONCEPT:
 Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows
 XOR truth table
 ![Img1](https://user-images.githubusercontent.com/112920679/195774720-35c2ed9d-d484-4485-b608-d809931a28f5.gif)
@@ -26,9 +26,12 @@ The number of layers in MLP is not fixed and thus can have any number of hidden 
 **Algorithm :**
 
 Step 1 : Initialize the input patterns for XOR Gate
+
 Step 2: Initialize the desired output of the XOR Gate
+
 Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron 
               and 1 output neuron
+	      
 Step 3: Repeat the  iteration  until the losses become constant and 
               minimum
               (i)  Compute the output using forward pass output
@@ -37,6 +40,7 @@ Step 3: Repeat the  iteration  until the losses become constant and
                      propagation algorithm.
              (iv) Modify the weight as per delta rule.
              (v)   Append the losses in a list
+	     
 Step 4 : Test for the XOR patterns.
 
 ## PROGRAM
